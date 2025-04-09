@@ -1,0 +1,15 @@
+/* components/profile/styles/ProfileContent.module.css */
+.content {
+    padding: 20px;
+  }
+  
+  .userDetails {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .userDetails span {
+    font-weight: bold;
+    color: #333;
+  }
+  

@@ -1,0 +1,37 @@
+/* components/profile/styles/ProfileActions.module.css */
+
+.actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .actions button {
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .actions button:first-child {
+    background-color: #007BFF; /* Blue - Edit */
+    color: white;
+  }
+  
+  .actions button:first-child:hover {
+    background-color: #0056b3;
+  }
+  
+  .actions button:last-child {
+    background-color: #dc3545; /* Red - Delete */
+    color: white;
+  }
+  
+  .actions button:last-child:hover {
+    background-color: #a71d2a;
+  }
+  
